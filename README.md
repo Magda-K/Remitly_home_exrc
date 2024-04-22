@@ -3,7 +3,7 @@
 import json
 
 def check_star(path):
-    #Creating a funkction which checks if Resource statement contains '*'
+    #Creating a funkction which checks if Resource statement in json document contains '*' if so return True else return false 
     
     with open(path, 'r', encoding='utf-8') as plik:
     plik_json = json.load(plik)
